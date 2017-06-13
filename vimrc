@@ -15,6 +15,7 @@
 " Backup Options and Temporary Files
     set backup                           " Enables backups.
     set backupdir=$HOME/.vim/backup      " Use .vim for housekeeping. 
+    set undodir=$HOME/.vim/undo          " Use .vim for housekeeping.
     set dir=$HOME/.vim/swap              " Use .vim for housekeeping.
     set viewdir=$HOME/.vim/view          " Use .vim for housekeeping.
     set backupskip=/tmp/*,/private/tmp/* " Skip the backups of temp files like crontab.

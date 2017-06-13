@@ -24,7 +24,7 @@ endfun
 
 fun! ColorScheme()
 " return "dark"
-  return "light"
+ return "light"
 endfun
 
 set runtimepath=~/.vim,$VIMRUNTIME
